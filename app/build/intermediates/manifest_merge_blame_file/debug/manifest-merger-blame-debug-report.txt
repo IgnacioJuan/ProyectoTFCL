@@ -6,13 +6,13 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="25"
-8-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml
+8-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml
+9-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:6:5-67
-11-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:6:22-64
+11-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:6:22-64
 12
 13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
@@ -30,69 +30,69 @@
 18-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\226633a12110a6fee24c3f7c70b408d4\transformed\play-services-measurement-21.1.1\AndroidManifest.xml:26:22-107
 19
 20    <application
-20-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:8:5-40:19
+20-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:8:5-40:19
 21        android:allowBackup="true"
-21-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:9:9-35
+21-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:9:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.8.0] C:\Users\Usuario\.gradle\caches\transforms-3\95858cfcc7dd6d0ee59b1ab628998b3e\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:10:9-65
+23-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:10:9-65
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:fullBackupContent="@xml/backup_rules"
-26-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:11:9-54
+26-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:11:9-54
 27        android:icon="@mipmap/ic_launcher"
-27-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:12:9-43
+27-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:12:9-43
 28        android:label="@string/app_name"
-28-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:13:9-41
+28-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:13:9-41
 29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:14:9-54
+29-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:14:9-54
 30        android:supportsRtl="true"
-30-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:15:9-35
+30-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:15:9-35
 31        android:testOnly="true"
 32        android:theme="@style/Theme.ProyectoTFC.NoActionBar" >
-32-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:16:9-61
+32-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:16:9-61
 33        <activity
-33-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:18:9-22:80
+33-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:18:9-22:80
 34            android:name="com.cristopher.guaman.proyectotfc.Menu_Estudiantes"
-34-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:19:13-45
+34-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:19:13-45
 35            android:exported="false"
-35-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:20:13-37
+35-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:20:13-37
 36            android:label="@string/title_activity_menu_estudiantes"
-36-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:21:13-68
+36-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:21:13-68
 37            android:theme="@style/Theme.ProyectoTFC.NoActionBar.NoActionBar" />
-37-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:22:13-77
+37-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:22:13-77
 38        <activity
-38-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:23:9-25:40
+38-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:23:9-25:40
 39            android:name="com.cristopher.guaman.proyectotfc.RegistroUser"
-39-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:24:13-41
+39-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:24:13-41
 40            android:exported="false" />
-40-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:25:13-37
+40-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:25:13-37
 41        <activity
-41-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:26:9-28:40
+41-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:26:9-28:40
 42            android:name="com.cristopher.guaman.proyectotfc.MainActivity"
-42-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:27:13-41
+42-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:27:13-41
 43            android:exported="false" />
-43-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:28:13-37
+43-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:28:13-37
 44        <activity
-44-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:29:9-39:20
+44-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:29:9-39:20
 45            android:name="com.cristopher.guaman.proyectotfc.LoginActivity"
-45-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:30:13-42
+45-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:30:13-42
 46            android:exported="true"
-46-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:31:13-36
+46-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:31:13-36
 47            android:label="@string/app_name"
-47-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:32:13-45
+47-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:32:13-45
 48            android:theme="@style/Theme.ProyectoTFC.NoActionBar" >
-48-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:33:13-65
+48-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:33:13-65
 49            <intent-filter>
-49-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:34:13-38:29
+49-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:34:13-38:29
 50                <action android:name="android.intent.action.MAIN" />
-50-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:35:17-69
-50-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:35:25-66
+50-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:35:17-69
+50-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:35:25-66
 51
 52                <category android:name="android.intent.category.LAUNCHER" />
-52-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:37:17-77
-52-->C:\Users\Usuario\Desktop\ProyectoTFCGoogle\app\src\main\AndroidManifest.xml:37:27-74
+52-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:37:17-77
+52-->C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:37:27-74
 53            </intent-filter>
 54        </activity>
 55
