@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Proyecto TFC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Docente</string>
+    <string name="nav_header_subtitle">docente@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Acerca de</string>
+    <string name="login_email">Ingrese su correo electronico</string>
+    <string name="login_password">Ingrese la contraseña</string>
+    <string name="menu_notificaciones">Notificaciones</string>
+    <string name="menu_estudiantes">Estudiantes</string>
+    <string name="menu_documentos">Documentos</string>
+    <string name="registro">Registro de Usuario</string>
+    <string name="Crear">CREAR CUENTA</string>
+    <string name="title_activity_menu_estudiantes">Menu_Estudiantes</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="Estudiante">USUARIO ESTUDIANTE</string>
+    <string name="Docente">USUARIO DOCENTE</string>
+    <string name="IngresarGoogle">INGRESAR CON GOOGLE</string>
+</resources>

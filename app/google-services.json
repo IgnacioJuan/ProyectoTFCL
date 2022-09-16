@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "687509821702",
+    "firebase_url": "https://proyecto-tfc-movil-default-rtdb.firebaseio.com",
+    "project_id": "proyecto-tfc-movil",
+    "storage_bucket": "proyecto-tfc-movil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687509821702:android:ae1d5c1996cdb50764a687",
+        "android_client_info": {
+          "package_name": "com.cristopher.guaman.proyectotfc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687509821702-4h0v2id3nouibir7rqm6i9gkm4or9vbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkKcBJYuVgj3v8qRB-mFyLAnESjVFFvq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687509821702-4h0v2id3nouibir7rqm6i9gkm4or9vbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
