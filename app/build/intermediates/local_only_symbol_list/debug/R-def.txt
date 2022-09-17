@@ -26,7 +26,6 @@ drawable ic_menu_slideshow
 drawable iconitsa
 drawable perfil
 drawable side_nav_bar
-id action_logout
 id action_settings
 id app_bar_main
 id app_bar_menu_estudiantes
@@ -34,6 +33,7 @@ id btnGoogle
 id btnLogin
 id btnRegistro
 id btn_CrearCuenta_R
+id cerrarSesion
 id drawer_layout
 id fab
 id imageView

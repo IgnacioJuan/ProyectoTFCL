@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.cristopher.guaman.proyectotfc.app-mergeDebugResources-47:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.cristopher.guaman.proyectotfc.app-mergeDebugResources-49:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Usuario\\Desktop\\Movil\\ProyectoTFCL\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "C:\\Users\\DAVID\\AndroidStudioProjects\\ProyectoTFCL\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

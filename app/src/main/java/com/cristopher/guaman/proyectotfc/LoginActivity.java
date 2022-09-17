@@ -125,6 +125,18 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     }
                 });
     }
+
+    @Override
+    protected void onStart() {
+        FirebaseUser user = firebaseAuth.getCurrentUser();
+        if(user!=null){ //si no es null el usuario ya esta logueado
+            //mover al usuario al dashboard
+            Intent dashboardActivity = new Intent(LoginActivity.this, MainActivity.class);
+            startActivity(dashboardActivity);
+        }
+        super.onStart();
+    }
+
     /*
     private void RegistrarUsuario(){
         //Obtenemos el correo y la contraseña de las cajas de texto

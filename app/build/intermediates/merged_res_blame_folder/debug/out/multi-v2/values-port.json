@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.cristopher.guaman.proyectotfc.app-mergeDebugResources-47:/values-port/values-port.xml",
+            "outputFile": "com.cristopher.guaman.proyectotfc.app-mergeDebugResources-49:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-3\\eadf7027bc6cb580b035c79a4f821412\\transformed\\appcompat-1.5.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\DAVID\\.gradle\\caches\\transforms-3\\eadf7027bc6cb580b035c79a4f821412\\transformed\\appcompat-1.5.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
