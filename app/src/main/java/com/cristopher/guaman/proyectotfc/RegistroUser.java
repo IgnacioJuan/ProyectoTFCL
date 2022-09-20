@@ -2,11 +2,13 @@ package com.cristopher.guaman.proyectotfc;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.util.PatternsCompat;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -49,49 +51,75 @@ public class RegistroUser extends AppCompatActivity  implements View.OnClickList
         mibotonConfirmar.setOnClickListener(this);
     }
 
+
     private void RegistrarUsuario() {
         //Obtenemos el correo y la contraseña de las cajas de texto
+        String name = nombres.getText().toString().trim();
+        String lastname = apellidos.getText().toString().trim();
         String emailUser = email.getText().toString().trim();
         String passUser = contraseña.getText().toString().trim();
         String passUser2= contraseña2.getText().toString().trim();
 
-        //Verificamos que las cajas de texto no esten vacios
-        if (TextUtils.isEmpty(emailUser)) {
-            Toast.makeText(RegistroUser.this, "Porfavor ingrese el email", Toast.LENGTH_SHORT).show();
-            return;
-        }
-        if (TextUtils.isEmpty(passUser)) {
-            Toast.makeText(RegistroUser.this, "Porfavor ingrese una contraseña", Toast.LENGTH_SHORT).show();
-            return;
-        }
-        //verificamos que las contraseñas sean las mismas
-        if (!passUser.equals(passUser2)){
-            Toast.makeText(RegistroUser.this, "Sus contraseñas no coinciden intente nuevamente", Toast.LENGTH_SHORT).show();
-            return;
-        }
+        if(TextUtils.isEmpty(name)&&TextUtils.isEmpty(lastname)&&TextUtils.isEmpty(emailUser)&&TextUtils.isEmpty(passUser)&&TextUtils.isEmpty(passUser2)){
+            Toast.makeText(RegistroUser.this,"Llene todos los campos",Toast.LENGTH_SHORT).show();
+        }else{
+            if(TextUtils.isEmpty(name)){
+                Toast.makeText(RegistroUser.this,"Porfavor ingrese su nombre",Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if(TextUtils.isEmpty(lastname)){
+                Toast.makeText(RegistroUser.this,"Porfavor ingrese su apellido",Toast.LENGTH_SHORT).show();
+                return;
+            }
+            //Verificamos que las cajas de texto no esten vacios
+            if (TextUtils.isEmpty(emailUser)) {
+                Toast.makeText(RegistroUser.this, "Porfavor ingrese el email", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if(!android.util.Patterns.EMAIL_ADDRESS.matcher(emailUser).matches()){
+                Toast.makeText(RegistroUser.this, "Email no valido", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if (TextUtils.isEmpty(passUser)) {
+                Toast.makeText(RegistroUser.this, "Porfavor ingrese una contraseña", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            //verificamos que las contraseñas sean las mismas
+            if (!passUser.equals(passUser2)){
+                Toast.makeText(RegistroUser.this, "Sus contraseñas no coinciden intente nuevamente", Toast.LENGTH_SHORT).show();
+                return;
+            }
 
-        progressDialog.setMessage("Realizando el registro...");
-        progressDialog.show();
+            if(passUser.length()<6){
+               Toast.makeText(RegistroUser.this,"La contraseña debe tener 6 o mas caracteres", Toast.LENGTH_SHORT).show();
+               return;
+            }
 
-        ///creación de nuevo usuario
-        firebaseAuth.createUserWithEmailAndPassword(emailUser, passUser)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            Toast.makeText(RegistroUser.this, "Se ha registrado el usuario con el email: " + email.getText(), Toast.LENGTH_SHORT).show();
-                            LimpiarDatos();
-                            startActivity(new Intent(RegistroUser.this,LoginActivity.class));
-                        } else {
-                            if (task.getException() instanceof FirebaseAuthUserCollisionException) {
-                                Toast.makeText(RegistroUser.this, "Este usuario ya esta registrado", Toast.LENGTH_SHORT).show();
+            progressDialog.setMessage("Realizando el registro...");
+            progressDialog.show();
+            ///creación de nuevo usuario
+            firebaseAuth.createUserWithEmailAndPassword(emailUser, passUser)
+                    .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if (task.isSuccessful()) {
+                                Toast.makeText(RegistroUser.this, "Se ha registrado el usuario con el email: " + email.getText(), Toast.LENGTH_SHORT).show();
+                                LimpiarDatos();
+                                startActivity(new Intent(RegistroUser.this,LoginActivity.class));
                             } else {
-                                Toast.makeText(RegistroUser.this, "Ocurrio un error al registrar", Toast.LENGTH_SHORT).show();
+                                if (task.getException() instanceof FirebaseAuthUserCollisionException) {
+                                    Toast.makeText(RegistroUser.this, "Este usuario ya esta registrado", Toast.LENGTH_SHORT).show();
+                                } else {
+                                    Toast.makeText(RegistroUser.this, "Ocurrio un error al registrar", Toast.LENGTH_SHORT).show();
+                                }
                             }
+                            progressDialog.dismiss();
                         }
-                        progressDialog.dismiss();
-                    }
-                });
+                    });
+        }
+
+
+
     }
 
     private void LimpiarDatos() {

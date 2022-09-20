@@ -76,7 +76,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Ingrese E-mail"
-            android:inputType="textPersonName"
+            android:inputType="textEmailAddress"
             android:minHeight="48dp" />
 
         <Space

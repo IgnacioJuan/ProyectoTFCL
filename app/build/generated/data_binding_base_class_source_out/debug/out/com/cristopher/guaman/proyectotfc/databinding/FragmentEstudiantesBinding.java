@@ -4,6 +4,7 @@ package com.cristopher.guaman.proyectotfc.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,11 +21,15 @@ public final class FragmentEstudiantesBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView imageView6;
+
+  @NonNull
   public final TextView textGallery;
 
   private FragmentEstudiantesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textGallery) {
+      @NonNull ImageView imageView6, @NonNull TextView textGallery) {
     this.rootView = rootView;
+    this.imageView6 = imageView6;
     this.textGallery = textGallery;
   }
 
@@ -55,13 +60,19 @@ public final class FragmentEstudiantesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.imageView6;
+      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView6 == null) {
+        break missingId;
+      }
+
       id = R.id.text_gallery;
       TextView textGallery = ViewBindings.findChildViewById(rootView, id);
       if (textGallery == null) {
         break missingId;
       }
 
-      return new FragmentEstudiantesBinding((ConstraintLayout) rootView, textGallery);
+      return new FragmentEstudiantesBinding((ConstraintLayout) rootView, imageView6, textGallery);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

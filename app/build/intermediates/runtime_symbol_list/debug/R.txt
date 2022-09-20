@@ -2872,7 +2872,9 @@ int id image 0x7f0800f5
 int id imageView 0x7f0800f6
 int id imageView2 0x7f0800f7
 int id imageView3 0x7f0800f8
+int id imageView4 0x7f08021c
 int id imageView5 0x7f0800f9
+int id imageView6 0x7f08021d
 int id immediateStop 0x7f0800fa
 int id included 0x7f0800fb
 int id info 0x7f0800fc
