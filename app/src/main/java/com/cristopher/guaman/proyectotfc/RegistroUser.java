@@ -21,6 +21,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class RegistroUser extends AppCompatActivity  implements View.OnClickListener {
     Button mibotonConfirmar, mibotonCancelar;
     EditText nombres, apellidos, email, contraseña, contraseña2;
@@ -51,6 +54,15 @@ public class RegistroUser extends AppCompatActivity  implements View.OnClickList
         mibotonConfirmar.setOnClickListener(this);
     }
 
+    /*private void validarCorreo(){
+        Pattern pattern = Pattern.compile("(\\W|^)[\\w.\\-]{0,25}@(tecazuay)\\.edu\\.ec(\\W|$)");
+        Matcher matcher = pattern.matcher(email.getText());
+        if(matcher.find()){
+
+        }
+
+    }*/
+
 
     private void RegistrarUsuario() {
         //Obtenemos el correo y la contraseña de las cajas de texto
@@ -59,6 +71,9 @@ public class RegistroUser extends AppCompatActivity  implements View.OnClickList
         String emailUser = email.getText().toString().trim();
         String passUser = contraseña.getText().toString().trim();
         String passUser2= contraseña2.getText().toString().trim();
+
+        Pattern pattern = Pattern.compile("(\\W|^)[\\w.\\-]{0,25}@(tecazuay)\\.edu\\.ec(\\W|$)");
+        Matcher matcher = pattern.matcher(email.getText());
 
         if(TextUtils.isEmpty(name)&&TextUtils.isEmpty(lastname)&&TextUtils.isEmpty(emailUser)&&TextUtils.isEmpty(passUser)&&TextUtils.isEmpty(passUser2)){
             Toast.makeText(RegistroUser.this,"Llene todos los campos",Toast.LENGTH_SHORT).show();
@@ -76,7 +91,7 @@ public class RegistroUser extends AppCompatActivity  implements View.OnClickList
                 Toast.makeText(RegistroUser.this, "Porfavor ingrese el email", Toast.LENGTH_SHORT).show();
                 return;
             }
-            if(!android.util.Patterns.EMAIL_ADDRESS.matcher(emailUser).matches()){
+            if(!matcher.find()){
                 Toast.makeText(RegistroUser.this, "Email no valido", Toast.LENGTH_SHORT).show();
                 return;
             }
