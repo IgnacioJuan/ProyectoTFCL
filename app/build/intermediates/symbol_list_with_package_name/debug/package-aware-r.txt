@@ -2737,6 +2737,8 @@ id btnGoogle
 id btnLogin
 id btnRegistro
 id btn_CrearCuenta_R
+id btn_Recuperar
+id btn_olvPass
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2876,6 +2878,7 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
+id imageView7
 id immediateStop
 id included
 id info
@@ -3106,6 +3109,8 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
+id textView4
 id text_gallery
 id text_home
 id text_input_end_icon
@@ -3136,6 +3141,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id txtEmail
+id txtEmailRecuperar
 id txtPassword
 id txt_Apellidos_R
 id txt_Email_R
@@ -3263,6 +3269,7 @@ layout abc_tooltip
 layout activity_login
 layout activity_main
 layout activity_menu_estudiantes
+layout activity_recuperar
 layout activity_registro_user
 layout app_bar_main
 layout app_bar_menu_estudiantes
@@ -3500,6 +3507,7 @@ string menu_gallery
 string menu_home
 string menu_notificaciones
 string menu_slideshow
+string msgEmail
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
@@ -3543,12 +3551,14 @@ string nav_header_subtitle
 string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
+string olvide_pass
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
+string recuperar_contr
 string registro
 string search_menu_title
 string status_bar_notification_info_overflow

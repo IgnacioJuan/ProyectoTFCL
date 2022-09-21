@@ -2736,6 +2736,8 @@ int id btnGoogle 0x7f08006d
 int id btnLogin 0x7f08006e
 int id btnRegistro 0x7f08006f
 int id btn_CrearCuenta_R 0x7f080070
+int id btn_Recuperar 0x7f080220
+int id btn_olvPass 0x7f08021f
 int id buttonPanel 0x7f080071
 int id cache_measures 0x7f080072
 int id callMeasure 0x7f080073
@@ -2875,6 +2877,7 @@ int id imageView3 0x7f0800f8
 int id imageView4 0x7f08021c
 int id imageView5 0x7f0800f9
 int id imageView6 0x7f08021d
+int id imageView7 0x7f080221
 int id immediateStop 0x7f0800fa
 int id included 0x7f0800fb
 int id info 0x7f0800fc
@@ -3105,6 +3108,8 @@ int id textStart 0x7f0801dc
 int id textTop 0x7f0801dd
 int id textView 0x7f0801de
 int id textView2 0x7f0801df
+int id textView3 0x7f08021e
+int id textView4 0x7f080222
 int id text_gallery 0x7f0801e0
 int id text_home 0x7f0801e1
 int id text_input_end_icon 0x7f0801e2
@@ -3135,6 +3140,7 @@ int id transition_scene_layoutid_cache 0x7f0801fa
 int id transition_transform 0x7f0801fb
 int id triangle 0x7f0801fc
 int id txtEmail 0x7f0801fd
+int id txtEmailRecuperar 0x7f080223
 int id txtPassword 0x7f0801fe
 int id txt_Apellidos_R 0x7f0801ff
 int id txt_Email_R 0x7f080200
@@ -3262,6 +3268,7 @@ int layout abc_tooltip 0x7f0b001b
 int layout activity_login 0x7f0b001c
 int layout activity_main 0x7f0b001d
 int layout activity_menu_estudiantes 0x7f0b001e
+int layout activity_recuperar 0x7f0b0088
 int layout activity_registro_user 0x7f0b001f
 int layout app_bar_main 0x7f0b0020
 int layout app_bar_menu_estudiantes 0x7f0b0021
@@ -3499,6 +3506,7 @@ int string menu_gallery 0x7f110077
 int string menu_home 0x7f110078
 int string menu_notificaciones 0x7f110079
 int string menu_slideshow 0x7f11007a
+int string msgEmail 0x7f1100b0
 int string mtrl_badge_numberless_content_description 0x7f11007b
 int string mtrl_chip_close_icon_content_description 0x7f11007c
 int string mtrl_exceed_max_badge_number_content_description 0x7f11007d
@@ -3542,12 +3550,14 @@ int string nav_header_subtitle 0x7f1100a2
 int string nav_header_title 0x7f1100a3
 int string navigation_drawer_close 0x7f1100a4
 int string navigation_drawer_open 0x7f1100a5
+int string olvide_pass 0x7f1100b1
 int string password_toggle_content_description 0x7f1100a6
 int string path_password_eye 0x7f1100a7
 int string path_password_eye_mask_strike_through 0x7f1100a8
 int string path_password_eye_mask_visible 0x7f1100a9
 int string path_password_strike_through 0x7f1100aa
 int string project_id 0x7f1100ab
+int string recuperar_contr 0x7f1100b2
 int string registro 0x7f1100ac
 int string search_menu_title 0x7f1100ad
 int string status_bar_notification_info_overflow 0x7f1100ae

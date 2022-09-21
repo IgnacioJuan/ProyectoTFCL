@@ -28,6 +28,9 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final Button btnLogin;
 
   @NonNull
+  public final Button btnOlvPass;
+
+  @NonNull
   public final Button btnRegistro;
 
   @NonNull
@@ -40,11 +43,12 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final EditText txtPassword;
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnGoogle,
-      @NonNull Button btnLogin, @NonNull Button btnRegistro, @NonNull ImageView imageView,
-      @NonNull EditText txtEmail, @NonNull EditText txtPassword) {
+      @NonNull Button btnLogin, @NonNull Button btnOlvPass, @NonNull Button btnRegistro,
+      @NonNull ImageView imageView, @NonNull EditText txtEmail, @NonNull EditText txtPassword) {
     this.rootView = rootView;
     this.btnGoogle = btnGoogle;
     this.btnLogin = btnLogin;
+    this.btnOlvPass = btnOlvPass;
     this.btnRegistro = btnRegistro;
     this.imageView = imageView;
     this.txtEmail = txtEmail;
@@ -90,6 +94,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_olvPass;
+      Button btnOlvPass = ViewBindings.findChildViewById(rootView, id);
+      if (btnOlvPass == null) {
+        break missingId;
+      }
+
       id = R.id.btnRegistro;
       Button btnRegistro = ViewBindings.findChildViewById(rootView, id);
       if (btnRegistro == null) {
@@ -114,8 +124,8 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, btnGoogle, btnLogin, btnRegistro,
-          imageView, txtEmail, txtPassword);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, btnGoogle, btnLogin, btnOlvPass,
+          btnRegistro, imageView, txtEmail, txtPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

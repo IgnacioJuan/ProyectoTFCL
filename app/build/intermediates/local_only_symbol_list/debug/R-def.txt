@@ -33,6 +33,8 @@ id btnGoogle
 id btnLogin
 id btnRegistro
 id btn_CrearCuenta_R
+id btn_Recuperar
+id btn_olvPass
 id cerrarSesion
 id drawer_layout
 id fab
@@ -42,6 +44,7 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
+id imageView7
 id mobile_navigation
 id mobile_navigation2
 id nav_gallery
@@ -52,11 +55,14 @@ id nav_slideshow
 id nav_view
 id textView
 id textView2
+id textView3
+id textView4
 id text_gallery
 id text_home
 id text_slideshow
 id toolbar
 id txtEmail
+id txtEmailRecuperar
 id txtPassword
 id txt_Apellidos_R
 id txt_Email_R
@@ -66,6 +72,7 @@ id txt_Password_R
 layout activity_login
 layout activity_main
 layout activity_menu_estudiantes
+layout activity_recuperar
 layout activity_registro_user
 layout app_bar_main
 layout app_bar_menu_estudiantes
@@ -108,12 +115,15 @@ string menu_gallery
 string menu_home
 string menu_notificaciones
 string menu_slideshow
+string msgEmail
 string nav_header_desc
 string nav_header_subtitle
 string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
+string olvide_pass
 string project_id
+string recuperar_contr
 string registro
 string title_activity_menu_estudiantes
 style Theme.ProyectoTFC

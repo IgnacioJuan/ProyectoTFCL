@@ -86,9 +86,22 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/IngresarGoogle"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:drawableLeft="@drawable/google_ico"
-
             />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <Button
+            android:id="@+id/btn_olvPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="@string/olvide_pass" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

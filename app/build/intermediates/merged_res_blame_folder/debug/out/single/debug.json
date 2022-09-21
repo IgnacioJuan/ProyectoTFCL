@@ -80,10 +80,6 @@
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-main-53:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.cristopher.guaman.proyectotfc.app-merged_res-51:/layout_activity_registro_user.xml.flat",
-        "source": "com.cristopher.guaman.proyectotfc.app-main-53:/layout/activity_registro_user.xml"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-merged_res-51:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-main-53:\\mipmap-mdpi\\ic_launcher.webp"
     },
@@ -142,6 +138,10 @@
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-merged_res-51:\\layout_fragment_notificaciones.xml.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-main-53:\\layout\\fragment_notificaciones.xml"
+    },
+    {
+        "merged": "com.cristopher.guaman.proyectotfc.app-merged_res-51:/layout_activity_recuperar.xml.flat",
+        "source": "com.cristopher.guaman.proyectotfc.app-main-53:/layout/activity_recuperar.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-merged_res-51:\\layout_fragment_documentos.xml.flat",

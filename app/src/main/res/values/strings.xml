@@ -22,4 +22,8 @@
     <string name="Estudiante">USUARIO ESTUDIANTE</string>
     <string name="Docente">USUARIO DOCENTE</string>
     <string name="IngresarGoogle">INGRESAR CON GOOGLE</string>
+    <string name="olvide_pass"><u>Olvide mi contraseña</u></string>
+    <string name="recuperar_contr">Recuperar Contraseña</string>
+
+    <string name="msgEmail">*Recuerde usar el dominio de la Institucion</string>
 </resources>

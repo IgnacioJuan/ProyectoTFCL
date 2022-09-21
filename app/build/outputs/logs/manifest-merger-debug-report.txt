@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\Usuario\.gradle\caches\transforms-3\ff2e6de8ea14b892a8a0f211a2661a1c\transformed\viewbinding-7.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-analytics:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\0df67e5b7af31eb9d36b4a05345bb900\transformed\firebase-analytics-21.1.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.5.1] C:\Users\Usuario\.gradle\caches\transforms-3\56e593e1d3f388728add37d0f690ff79\transformed\navigation-ui-2.5.1\AndroidManifest.xml:17:1-24:12
@@ -92,22 +92,22 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Usuario\.gradle\caches\transfo
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Usuario\.gradle\caches\transforms-3\56d708f82bf6f842cba45b1202023ee7\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\97cfae4b7c2532b17697ae253c589fba\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Usuario\.gradle\caches\transforms-3\5410a89ed6a4e6c7a8065c259c76c74a\transformed\grpc-android-1.44.1\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:4:5-48
 		INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:11-69
@@ -132,7 +132,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] C:
 	android:name
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:8:5-40:19
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:8:5-43:19
 MERGED from [com.google.firebase:firebase-analytics:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\0df67e5b7af31eb9d36b4a05345bb900\transformed\firebase-analytics-21.1.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\0df67e5b7af31eb9d36b4a05345bb900\transformed\firebase-analytics-21.1.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Usuario\.gradle\caches\transforms-3\3e4a1bd92ac3e94e06d1be817a78b0ba\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
@@ -217,48 +217,54 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Us
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:16:9-61
 	android:dataExtractionRules
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:10:9-65
-activity#com.cristopher.guaman.proyectotfc.Menu_Estudiantes
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:18:9-22:80
-	android:label
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:21:13-68
+activity#com.cristopher.guaman.proyectotfc.RecuperarActivity
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:20:13-37
-	android:theme
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:22:13-77
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:19:13-45
-activity#com.cristopher.guaman.proyectotfc.RegistroUser
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:23:9-25:40
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:19:13-46
+activity#com.cristopher.guaman.proyectotfc.Menu_Estudiantes
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:21:9-25:80
+	android:label
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:24:13-68
 	android:exported
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:25:13-77
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:24:13-41
-activity#com.cristopher.guaman.proyectotfc.MainActivity
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:22:13-45
+activity#com.cristopher.guaman.proyectotfc.RegistroUser
 ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:27:13-41
-activity#com.cristopher.guaman.proyectotfc.LoginActivity
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:29:9-39:20
-	android:label
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:32:13-45
+activity#com.cristopher.guaman.proyectotfc.MainActivity
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:30:13-41
+activity#com.cristopher.guaman.proyectotfc.LoginActivity
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:32:9-42:20
+	android:label
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:35:13-45
+	android:exported
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:34:13-36
 	android:theme
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:33:13-65
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:36:13-65
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:30:13-42
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:33:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:40:27-74
 uses-sdk
 INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml

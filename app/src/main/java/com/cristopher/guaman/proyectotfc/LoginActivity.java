@@ -6,9 +6,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -34,7 +36,7 @@ import java.util.HashMap;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button mibotonConfirmar ,mibotonLogin ,btnGoogle;
+    Button mibotonConfirmar ,mibotonLogin ,btnGoogle, mibtnRecuperar;
     private EditText name, email, password;
     FirebaseFirestore mFirestore;
     private FirebaseAuth firebaseAuth;
@@ -46,6 +48,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        Button button = (Button) findViewById(R.id.btn_olvPass);
+        button.setPaintFlags(button.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
 
         firebaseAuth= FirebaseAuth.getInstance();
 
@@ -55,13 +59,16 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         mibotonConfirmar= (Button) findViewById(R.id.btnRegistro);
         mibotonLogin=(Button) findViewById(R.id.btnLogin);
         btnGoogle=(Button) findViewById(R.id.btnGoogle);
+        mibtnRecuperar=(Button) findViewById(R.id.btn_olvPass);
 
         progressDialog=new ProgressDialog(this);
 
+        mibtnRecuperar.setOnClickListener(this);
         mibotonConfirmar.setOnClickListener(this);
         mibotonLogin.setOnClickListener(this);
         btnGoogle.setOnClickListener(this);
         createRequest();
+
     }
 
     //Creamos la solicitud
@@ -217,6 +224,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 });
     }
 
+    private void RecuperarButton(){
+        startActivity(new Intent(LoginActivity.this,RecuperarActivity.class));
+    }
+
     @Override
     public void onClick(View v) {
 
@@ -233,6 +244,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
             case R.id.btnGoogle:
                 signIn();
+                break;
+
+            case R.id.btn_olvPass:
+                RecuperarButton();
                 break;
         }
 

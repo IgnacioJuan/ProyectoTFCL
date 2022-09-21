@@ -31,6 +31,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.ProyectoTFC.NoActionBar" >
         <activity
+            android:name="com.cristopher.guaman.proyectotfc.RecuperarActivity"
+            android:exported="false" />
+        <activity
             android:name="com.cristopher.guaman.proyectotfc.Menu_Estudiantes"
             android:exported="false"
             android:label="@string/title_activity_menu_estudiantes"

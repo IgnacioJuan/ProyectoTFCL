@@ -51,7 +51,8 @@
             android:ems="10"
             android:hint="Ingrese sus nombres"
             android:inputType="textPersonName"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
 
         <Space
             android:layout_width="match_parent"
@@ -64,7 +65,8 @@
             android:ems="10"
             android:hint="Ingrese sus apellidos"
             android:inputType="textPersonName"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
 
         <Space
             android:layout_width="match_parent"
@@ -77,11 +79,18 @@
             android:ems="10"
             android:hint="Ingrese E-mail"
             android:inputType="textEmailAddress"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/msgEmail" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="25dp" />
+            android:layout_height="15dp" />
 
         <EditText
             android:id="@+id/txt_Password_R"
@@ -90,7 +99,8 @@
             android:ems="10"
             android:hint="Ingrese una contraseña"
             android:inputType="textPassword"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
 
         <Space
             android:layout_width="match_parent"
@@ -103,7 +113,8 @@
             android:ems="10"
             android:hint="Ingrese nuevamente la contraseña"
             android:inputType="textPassword"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
 
         <Space
             android:layout_width="match_parent"
