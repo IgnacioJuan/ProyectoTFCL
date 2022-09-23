@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">687509821702-4h0v2id3nouibir7rqm6i9gkm4or9vbi.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://proyecto-tfc-movil-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">687509821702</string>
+    <string name="google_api_key" translatable="false">AIzaSyCkKcBJYuVgj3v8qRB-mFyLAnESjVFFvq4</string>
+    <string name="google_app_id" translatable="false">1:687509821702:android:ae1d5c1996cdb50764a687</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCkKcBJYuVgj3v8qRB-mFyLAnESjVFFvq4</string>
+    <string name="google_storage_bucket" translatable="false">proyecto-tfc-movil.appspot.com</string>
+    <string name="project_id" translatable="false">proyecto-tfc-movil</string>
+</resources>

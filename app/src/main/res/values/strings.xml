@@ -26,4 +26,10 @@
     <string name="recuperar_contr">Recuperar Contraseña</string>
 
     <string name="msgEmail">*Recuerde usar el dominio de la Institucion</string>
+    <string name="ingrese_sus_nombres">Ingrese sus nombres</string>
+    <string name="ingrese_sus_apellidos">Ingrese sus apellidos</string>
+    <string name="ingrese_e_mail">Ingrese E-mail</string>
+    <string name="ingrese_una_contrase_a">Ingrese una contraseña</string>
+    <string name="ingrese_nuevamente_la_contrase_a">Ingrese nuevamente la contraseña</string>
+    <string name="todo">TODO</string>
 </resources>

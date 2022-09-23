@@ -6,16 +6,22 @@ import androidx.core.util.PatternsCompat;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.util.Patterns;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
@@ -27,6 +33,7 @@ import java.util.regex.Pattern;
 public class RegistroUser extends AppCompatActivity  implements View.OnClickListener {
     Button mibotonConfirmar, mibotonCancelar;
     EditText nombres, apellidos, email, contraseña, contraseña2;
+    TextInputEditText password;
     FirebaseFirestore mFirestore;
     private FirebaseAuth firebaseAuth;
     private ProgressDialog progressDialog;
@@ -52,7 +59,52 @@ public class RegistroUser extends AppCompatActivity  implements View.OnClickList
         //mibotonCancelar
         //IiciaCOntrol
         mibotonConfirmar.setOnClickListener(this);
+
+        //onTouch(RegistroUser.this,);
+
     }
+
+    /*public void ShowHidePass(View view) {
+
+        if(view.getId()==R.id.show_pass_btn){
+            if(contraseña.getTransformationMethod().equals(PasswordTransformationMethod.getInstance())){
+                ((ImageView)(view)).setImageResource(R.drawable.ic_baseline_visibility_24);
+                //Show Password
+                contraseña.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+            }
+            else{
+                ((ImageView)(view)).setImageResource(R.drawable.ic_baseline_visibility_24);
+                //Hide Password
+                contraseña.setTransformationMethod(PasswordTransformationMethod.getInstance());
+            }
+        }
+    }*/
+
+    /*public boolean onTouch(View view, MotionEvent motionEvent) {
+        switch (motionEvent.getAction()) {
+            case MotionEvent.ACTION_UP:
+                Drawable drawable = contraseña.getCompoundDrawables()[2];
+                if (drawable != null && motionEvent.getRawX() >= (contraseña.getRight() - drawable.getBounds().width())) {
+                    if (drawable.getConstantState().equals(getResources().getDrawable(R.drawable.ic_baseline_remove_red_eye_enable).getConstantState())) {
+                        contraseña.setCompoundDrawablesWithIntrinsicBounds(null,
+                                null, getResources().getDrawable(R.drawable.ic_baseline_visibility_off_24), null);
+                        contraseña.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                    }
+                    else {
+                        contraseña.setCompoundDrawablesWithIntrinsicBounds(null,
+                                null, getResources().getDrawable(R.drawable.ic_baseline_remove_red_eye_enable), null);
+                        contraseña.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                    }
+                    return false;
+                }
+                break;
+        }
+        return false;
+    }*/
+
+
+
+
 
     /*private void validarCorreo(){
         Pattern pattern = Pattern.compile("(\\W|^)[\\w.\\-]{0,25}@(tecazuay)\\.edu\\.ec(\\W|$)");

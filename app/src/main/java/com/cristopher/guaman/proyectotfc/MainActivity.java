@@ -1,7 +1,13 @@
 package com.cristopher.guaman.proyectotfc;
 
+import android.Manifest;
+import android.accounts.Account;
+import android.accounts.AccountManager;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.text.Html;
+import android.util.Patterns;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
@@ -17,6 +23,8 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -27,6 +35,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.cristopher.guaman.proyectotfc.databinding.ActivityMainBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -42,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
     //Variables para deslogear de google
     private GoogleSignInClient mGoogleSignInClient;
     private GoogleSignInOptions gso;
+    TextView tvEmail;
 
 
     @Override
@@ -52,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.appBarMain.toolbar);
+
+        //enviarEmail();
        /* binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
         //userCorreo.setText(currentUser.getEmail());
         //Glide.with(this).load(currentUser.getPhotoUrl()).into(userImg);
 
+
         //Configurar las gso para google signIn con el fin de luego desloguear de google
         gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
@@ -87,8 +103,15 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
-
     }
+
+    /*private void enviarEmail(){
+        Bundle extras = getIntent().getExtras();
+        String d1 = extras.getString("dato");
+        tvEmail = (TextView) findViewById(R.id.txtEmailNav);
+        tvEmail.setText(d1);
+    }*/
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

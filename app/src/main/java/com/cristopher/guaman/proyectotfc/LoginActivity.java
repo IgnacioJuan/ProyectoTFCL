@@ -210,6 +210,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
+
                             startActivity(new Intent(LoginActivity.this,MainActivity.class));
                             Toast.makeText(LoginActivity.this, "Bienvenido " + email.getText(), Toast.LENGTH_SHORT).show();
                         }else {

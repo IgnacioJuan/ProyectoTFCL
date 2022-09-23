@@ -28,6 +28,11 @@
     <string name="google_app_id" translatable="false">1:687509821702:android:ae1d5c1996cdb50764a687</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCkKcBJYuVgj3v8qRB-mFyLAnESjVFFvq4</string>
     <string name="google_storage_bucket" translatable="false">proyecto-tfc-movil.appspot.com</string>
+    <string name="ingrese_e_mail">Ingrese E-mail</string>
+    <string name="ingrese_nuevamente_la_contrase_a">Ingrese nuevamente la contraseña</string>
+    <string name="ingrese_sus_apellidos">Ingrese sus apellidos</string>
+    <string name="ingrese_sus_nombres">Ingrese sus nombres</string>
+    <string name="ingrese_una_contrase_a">Ingrese una contraseña</string>
     <string name="login_email">Ingrese su correo electronico</string>
     <string name="login_password">Ingrese la contraseña</string>
     <string name="menu_documentos">Documentos</string>
@@ -47,6 +52,7 @@
     <string name="recuperar_contr">Recuperar Contraseña</string>
     <string name="registro">Registro de Usuario</string>
     <string name="title_activity_menu_estudiantes">Menu_Estudiantes</string>
+    <string name="todo">TODO</string>
     <style name="Theme.ProyectoTFC" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/azulmar</item>

@@ -2562,6 +2562,9 @@ drawable googleg_standard_color_18
 drawable ic_baseline_folder_24
 drawable ic_baseline_notifications_24
 drawable ic_baseline_people_alt_24
+drawable ic_baseline_remove_red_eye_enable
+drawable ic_baseline_visibility_24
+drawable ic_baseline_visibility_off_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2576,6 +2579,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable icon_selector
 drawable iconitsa
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -3141,6 +3145,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id txtEmail
+id txtEmailNav
 id txtEmailRecuperar
 id txtPassword
 id txt_Apellidos_R
@@ -3462,6 +3467,11 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string ingrese_e_mail
+string ingrese_nuevamente_la_contrase_a
+string ingrese_sus_apellidos
+string ingrese_sus_nombres
+string ingrese_una_contrase_a
 string item_view_role_description
 string label
 string login_email
@@ -3563,6 +3573,7 @@ string registro
 string search_menu_title
 string status_bar_notification_info_overflow
 string title_activity_menu_estudiantes
+string todo
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

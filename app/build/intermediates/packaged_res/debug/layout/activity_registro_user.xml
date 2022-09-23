@@ -31,7 +31,8 @@
             android:id="@+id/imageView5"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            app:srcCompat="@drawable/perfil" />
+            app:srcCompat="@drawable/perfil"
+            android:contentDescription="@string/todo" />
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
@@ -49,10 +50,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Ingrese sus nombres"
+            android:hint="@string/ingrese_sus_nombres"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:textColorHint="#757575" />
+            android:textColorHint="#757575"
+            android:autofillHints="" />
 
         <Space
             android:layout_width="match_parent"
@@ -63,24 +65,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Ingrese sus apellidos"
+            android:hint="@string/ingrese_sus_apellidos"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:textColorHint="#757575" />
+            android:textColorHint="#757575"
+            android:autofillHints="" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="25dp" />
+
+
 
         <EditText
             android:id="@+id/txt_Email_R"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Ingrese E-mail"
+            android:hint="@string/ingrese_e_mail"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
-            android:textColorHint="#757575" />
+            android:textColorHint="#757575"
+            android:autofillHints="" />
 
         <TextView
             android:id="@+id/textView3"
@@ -92,15 +98,19 @@
             android:layout_width="match_parent"
             android:layout_height="15dp" />
 
-        <EditText
-            android:id="@+id/txt_Password_R"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Ingrese una contraseña"
-            android:inputType="textPassword"
-            android:minHeight="48dp"
-            android:textColorHint="#757575" />
+            <EditText
+                android:id="@+id/txt_Password_R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/ingrese_una_contrase_a"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColorHint="#757575" />
+
+
+
 
         <Space
             android:layout_width="match_parent"
@@ -111,10 +121,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Ingrese nuevamente la contraseña"
+            android:hint="@string/ingrese_nuevamente_la_contrase_a"
             android:inputType="textPassword"
             android:minHeight="48dp"
-            android:textColorHint="#757575" />
+            android:textColorHint="#757575"
+            android:autofillHints="" />
 
         <Space
             android:layout_width="match_parent"
