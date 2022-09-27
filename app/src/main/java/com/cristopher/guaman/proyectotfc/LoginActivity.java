@@ -8,7 +8,9 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Paint;
 import android.os.Bundle;
+import android.provider.Contacts.Intents.UI;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -19,6 +21,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -110,18 +113,53 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         }
     }
 
-    private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
+   /*private void handleSignInResult(GoogleSignInResult result) {
+        Log.d(TAG, "handleSignInResult:" + result.isSuccess());
+        if (result.isSuccess()) {
+            // Signed in successfully.
+            GoogleSignInAccount acct = result.getSignInAccount();
+            String email = acct.getEmail();
+            String[] split = s.split("@");
+            String domain = split[1]; //This Will Give You The Domain After '@'
+            if(domain.equals("tecazuay.edu.ec"))
+            {
+                //Proceed Ahead.
+            }
+            else
+            {
+                //Show User Warning UI.
+            }
+        } else {
+            // Signed out, show unauthenticated UI.
+            updateUI(false);
+        }
+    }*/
 
+    private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
+        String s="";
         AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
         firebaseAuth.signInWithCredential(credential)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
+                            String[] split = s.split("@");
+                            String domain = split[1]; //This Will Give You The Domain After '@'
+                            if(domain.equals("tecazuay.edu.ec"))
+                            {
+                                // Sign in success, update UI with the signed-in user's information
+                                FirebaseUser user = firebaseAuth.getCurrentUser();
+                                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                                startActivity(intent);
+                            }
+                            else
+                            {
+                                Toast.makeText(LoginActivity.this, "Sorry auth failed.", Toast.LENGTH_SHORT).show();
+                            }
                             // Sign in success, update UI with the signed-in user's information
-                            FirebaseUser user = firebaseAuth.getCurrentUser();
-                            Intent intent = new Intent(getApplicationContext(),MainActivity.class);
-                            startActivity(intent);
+                           //FirebaseUser user = firebaseAuth.getCurrentUser();
+                            //Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                            //startActivity(intent);
 
                         } else {
                             Toast.makeText(LoginActivity.this, "Sorry auth failed.", Toast.LENGTH_SHORT).show();
