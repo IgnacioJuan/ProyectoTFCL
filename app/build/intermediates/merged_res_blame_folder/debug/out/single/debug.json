@@ -88,10 +88,6 @@
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-main-53:\\layout\\activity_recuperar.xml"
     },
     {
-        "merged": "com.cristopher.guaman.proyectotfc.app-merged_res-51:/layout_activity_registro_user.xml.flat",
-        "source": "com.cristopher.guaman.proyectotfc.app-main-53:/layout/activity_registro_user.xml"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-merged_res-51:\\drawable_ic_baseline_remove_red_eye_enable.xml.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-main-53:\\drawable\\ic_baseline_remove_red_eye_enable.xml"
     },
@@ -122,6 +118,10 @@
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-merged_res-51:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-main-53:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cristopher.guaman.proyectotfc.app-merged_res-51:/layout_fragment_estudiantes.xml.flat",
+        "source": "com.cristopher.guaman.proyectotfc.app-main-53:/layout/fragment_estudiantes.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-merged_res-51:\\mipmap-hdpi_ic_launcher_round.webp.flat",

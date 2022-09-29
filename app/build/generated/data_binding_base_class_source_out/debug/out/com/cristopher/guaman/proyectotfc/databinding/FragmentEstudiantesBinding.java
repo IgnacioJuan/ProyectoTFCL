@@ -4,6 +4,8 @@ package com.cristopher.guaman.proyectotfc.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -21,16 +23,42 @@ public final class FragmentEstudiantesBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button btnBuscarPract;
+
+  @NonNull
   public final ImageView imageView6;
 
   @NonNull
   public final TextView textGallery;
 
+  @NonNull
+  public final EditText txtBuscarPrac;
+
+  @NonNull
+  public final TextView txtCarrera;
+
+  @NonNull
+  public final TextView txtCedula;
+
+  @NonNull
+  public final TextView txtCorreo;
+
+  @NonNull
+  public final TextView txtNombres;
+
   private FragmentEstudiantesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView6, @NonNull TextView textGallery) {
+      @NonNull Button btnBuscarPract, @NonNull ImageView imageView6, @NonNull TextView textGallery,
+      @NonNull EditText txtBuscarPrac, @NonNull TextView txtCarrera, @NonNull TextView txtCedula,
+      @NonNull TextView txtCorreo, @NonNull TextView txtNombres) {
     this.rootView = rootView;
+    this.btnBuscarPract = btnBuscarPract;
     this.imageView6 = imageView6;
     this.textGallery = textGallery;
+    this.txtBuscarPrac = txtBuscarPrac;
+    this.txtCarrera = txtCarrera;
+    this.txtCedula = txtCedula;
+    this.txtCorreo = txtCorreo;
+    this.txtNombres = txtNombres;
   }
 
   @Override
@@ -60,6 +88,12 @@ public final class FragmentEstudiantesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnBuscarPract;
+      Button btnBuscarPract = ViewBindings.findChildViewById(rootView, id);
+      if (btnBuscarPract == null) {
+        break missingId;
+      }
+
       id = R.id.imageView6;
       ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
       if (imageView6 == null) {
@@ -72,7 +106,38 @@ public final class FragmentEstudiantesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentEstudiantesBinding((ConstraintLayout) rootView, imageView6, textGallery);
+      id = R.id.txtBuscarPrac;
+      EditText txtBuscarPrac = ViewBindings.findChildViewById(rootView, id);
+      if (txtBuscarPrac == null) {
+        break missingId;
+      }
+
+      id = R.id.txtCarrera;
+      TextView txtCarrera = ViewBindings.findChildViewById(rootView, id);
+      if (txtCarrera == null) {
+        break missingId;
+      }
+
+      id = R.id.txtCedula;
+      TextView txtCedula = ViewBindings.findChildViewById(rootView, id);
+      if (txtCedula == null) {
+        break missingId;
+      }
+
+      id = R.id.txtCorreo;
+      TextView txtCorreo = ViewBindings.findChildViewById(rootView, id);
+      if (txtCorreo == null) {
+        break missingId;
+      }
+
+      id = R.id.txtNombres;
+      TextView txtNombres = ViewBindings.findChildViewById(rootView, id);
+      if (txtNombres == null) {
+        break missingId;
+      }
+
+      return new FragmentEstudiantesBinding((ConstraintLayout) rootView, btnBuscarPract, imageView6,
+          textGallery, txtBuscarPrac, txtCarrera, txtCedula, txtCorreo, txtNombres);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

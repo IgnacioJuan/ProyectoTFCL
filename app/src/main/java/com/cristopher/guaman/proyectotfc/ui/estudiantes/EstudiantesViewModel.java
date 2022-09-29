@@ -1,5 +1,7 @@
 package com.cristopher.guaman.proyectotfc.ui.estudiantes;
 
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.lifecycle.LiveData;
@@ -11,8 +13,14 @@ import java.util.Date;
 
 public class EstudiantesViewModel extends ViewModel {
 
-    private final MutableLiveData<String> mText;
+    //private final MutableLiveData<String> mText;
+    private MutableLiveData<String> mText, mCedula, mNombres, mCarrera, mCorreo;
+
+
     TextView fechaCompleta, hora, dia,mes,anio;
+    EditText edtCedula;
+   // TextView cedula, nombres, carrera, correo;
+    Button btnBuscar;
 
     public EstudiantesViewModel() {
         Date d = new Date();

@@ -33,6 +33,7 @@ drawable side_nav_bar
 id action_settings
 id app_bar_main
 id app_bar_menu_estudiantes
+id btnBuscarPract
 id btnGoogle
 id btnLogin
 id btnRegistro
@@ -65,9 +66,14 @@ id text_gallery
 id text_home
 id text_slideshow
 id toolbar
+id txtBuscarPrac
+id txtCarrera
+id txtCedula
+id txtCorreo
 id txtEmail
 id txtEmailNav
 id txtEmailRecuperar
+id txtNombres
 id txtPassword
 id txt_Apellidos_R
 id txt_Email_R

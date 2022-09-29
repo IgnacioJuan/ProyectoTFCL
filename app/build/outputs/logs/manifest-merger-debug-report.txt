@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-48:12
 MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\Usuario\.gradle\caches\transforms-3\ff2e6de8ea14b892a8a0f211a2661a1c\transformed\viewbinding-7.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-analytics:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\0df67e5b7af31eb9d36b4a05345bb900\transformed\firebase-analytics-21.1.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.5.1] C:\Users\Usuario\.gradle\caches\transforms-3\56e593e1d3f388728add37d0f690ff79\transformed\navigation-ui-2.5.1\AndroidManifest.xml:17:1-24:12
@@ -24,6 +24,7 @@ MERGED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Usuario\.gra
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Usuario\.gradle\caches\transforms-3\8a085dd7e45ee5a818107acfcc28def9\transformed\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Usuario\.gradle\caches\transforms-3\47928ea111b6c67895c0c3063daaebe0\transformed\glide-4.11.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] C:\Users\Usuario\.gradle\caches\transforms-3\87bc2027734fb3d4700a2aa282dcf861\transformed\play-services-auth-20.3.0\AndroidManifest.xml:17:1-40:12
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Usuario\.gradle\caches\transforms-3\5410a89ed6a4e6c7a8065c259c76c74a\transformed\grpc-android-1.44.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.1] C:\Users\Usuario\.gradle\caches\transforms-3\2b6a09b429e747d977cefed0b28a671e\transformed\firebase-appcheck-interop-16.0.1\AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\bac0958c455bfc50b8d3d6891a134aff\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\379135ffbf3e0514112fc75941c191cb\transformed\play-services-measurement-api-21.1.1\AndroidManifest.xml:17:1-37:12
@@ -91,23 +92,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Usuario\.gradle\
 MERGED from [androidx.print:print:1.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\f0e82b0d7634eee621ecfa03821e1412\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Usuario\.gradle\caches\transforms-3\56d708f82bf6f842cba45b1202023ee7\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\97cfae4b7c2532b17697ae253c589fba\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
-MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Usuario\.gradle\caches\transforms-3\5410a89ed6a4e6c7a8065c259c76c74a\transformed\grpc-android-1.44.1\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:4:5-48
 		INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-46:12
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-46:12
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:2:11-69
@@ -136,7 +136,7 @@ ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManif
 	android:name
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:8:22-68
 application
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:9:5-44:19
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:9:5-46:19
 MERGED from [com.google.firebase:firebase-analytics:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\0df67e5b7af31eb9d36b4a05345bb900\transformed\firebase-analytics-21.1.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\0df67e5b7af31eb9d36b4a05345bb900\transformed\firebase-analytics-21.1.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Usuario\.gradle\caches\transforms-3\3e4a1bd92ac3e94e06d1be817a78b0ba\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
@@ -221,54 +221,56 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Us
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:17:9-61
 	android:dataExtractionRules
 		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:11:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:19:9-44
 activity#com.cristopher.guaman.proyectotfc.RecuperarActivity
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:19:9-21:40
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:20:13-46
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:22:13-46
 activity#com.cristopher.guaman.proyectotfc.Menu_Estudiantes
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:22:9-26:80
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:24:9-28:80
 	android:label
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:25:13-68
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:27:13-68
 	android:exported
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:24:13-37
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:26:13-77
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:28:13-77
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:23:13-45
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:25:13-45
 activity#com.cristopher.guaman.proyectotfc.RegistroUser
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:27:9-29:40
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:28:13-41
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:30:13-41
 activity#com.cristopher.guaman.proyectotfc.MainActivity
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:30:9-32:40
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:32:13-37
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:31:13-41
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:33:13-41
 activity#com.cristopher.guaman.proyectotfc.LoginActivity
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:33:9-43:20
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:35:9-45:20
 	android:label
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:36:13-45
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:38:13-45
 	android:exported
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:35:13-36
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:37:13-36
 	android:theme
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:37:13-65
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:39:13-65
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:34:13-42
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:36:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:38:13-42:29
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:39:17-69
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:39:25-66
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:41:17-77
+ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:41:27-74
+		ADDED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml:43:27-74
 uses-sdk
 INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
@@ -313,6 +315,8 @@ MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Usuario\.gradle\ca
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Usuario\.gradle\caches\transforms-3\47928ea111b6c67895c0c3063daaebe0\transformed\glide-4.11.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] C:\Users\Usuario\.gradle\caches\transforms-3\87bc2027734fb3d4700a2aa282dcf861\transformed\play-services-auth-20.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] C:\Users\Usuario\.gradle\caches\transforms-3\87bc2027734fb3d4700a2aa282dcf861\transformed\play-services-auth-20.3.0\AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Usuario\.gradle\caches\transforms-3\5410a89ed6a4e6c7a8065c259c76c74a\transformed\grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Usuario\.gradle\caches\transforms-3\5410a89ed6a4e6c7a8065c259c76c74a\transformed\grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.1] C:\Users\Usuario\.gradle\caches\transforms-3\2b6a09b429e747d977cefed0b28a671e\transformed\firebase-appcheck-interop-16.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.1] C:\Users\Usuario\.gradle\caches\transforms-3\2b6a09b429e747d977cefed0b28a671e\transformed\firebase-appcheck-interop-16.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\bac0958c455bfc50b8d3d6891a134aff\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
@@ -447,8 +451,6 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Usuario
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Usuario\.gradle\caches\transforms-3\56d708f82bf6f842cba45b1202023ee7\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\97cfae4b7c2532b17697ae253c589fba\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\97cfae4b7c2532b17697ae253c589fba\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Usuario\.gradle\caches\transforms-3\5410a89ed6a4e6c7a8065c259c76c74a\transformed\grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
-MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Usuario\.gradle\caches\transforms-3\5410a89ed6a4e6c7a8065c259c76c74a\transformed\grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
 INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Usuario\Desktop\Movil\ProyectoTFCL\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -465,6 +467,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.8] C:\Users\Usuario\.gradle\
 MERGED from [com.google.firebase:firebase-auth:21.0.8] C:\Users\Usuario\.gradle\caches\transforms-3\4e113848735b8550b5ea0fd28783bccf\transformed\firebase-auth-21.0.8\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Usuario\.gradle\caches\transforms-3\a30a4418b51af07a16a594b50c9f489b\transformed\firebase-database-20.0.6\AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Usuario\.gradle\caches\transforms-3\a30a4418b51af07a16a594b50c9f489b\transformed\firebase-database-20.0.6\AndroidManifest.xml:25:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Usuario\.gradle\caches\transforms-3\5410a89ed6a4e6c7a8065c259c76c74a\transformed\grpc-android-1.44.1\AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Usuario\.gradle\caches\transforms-3\5410a89ed6a4e6c7a8065c259c76c74a\transformed\grpc-android-1.44.1\AndroidManifest.xml:9:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\379135ffbf3e0514112fc75941c191cb\transformed\play-services-measurement-api-21.1.1\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\379135ffbf3e0514112fc75941c191cb\transformed\play-services-measurement-api-21.1.1\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.2] C:\Users\Usuario\.gradle\caches\transforms-3\28988e68d24069f74d4df161ad23b77f\transformed\firebase-installations-17.0.2\AndroidManifest.xml:10:5-79
@@ -475,8 +479,6 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\4d93077676496c5a9b1f8f09b4c0b1a9\transformed\play-services-measurement-impl-21.1.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\6105bc097e0319d4c30d3b9999d29161\transformed\play-services-measurement-sdk-api-21.1.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\6105bc097e0319d4c30d3b9999d29161\transformed\play-services-measurement-sdk-api-21.1.1\AndroidManifest.xml:24:5-79
-MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Usuario\.gradle\caches\transforms-3\5410a89ed6a4e6c7a8065c259c76c74a\transformed\grpc-android-1.44.1\AndroidManifest.xml:9:5-79
-MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\Usuario\.gradle\caches\transforms-3\5410a89ed6a4e6c7a8065c259c76c74a\transformed\grpc-android-1.44.1\AndroidManifest.xml:9:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:24.3.0] C:\Users\Usuario\.gradle\caches\transforms-3\cc172e99c21309dfbf9a12396a0a7d07\transformed\firebase-firestore-24.3.0\AndroidManifest.xml:13:22-76
 service#com.google.firebase.components.ComponentDiscoveryService

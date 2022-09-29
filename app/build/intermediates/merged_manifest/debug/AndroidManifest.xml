@@ -30,7 +30,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.ProyectoTFC.NoActionBar" >
+        android:theme="@style/Theme.ProyectoTFC.NoActionBar"
+        android:usesCleartextTraffic="true" >
         <activity
             android:name="com.cristopher.guaman.proyectotfc.RecuperarActivity"
             android:exported="false" />

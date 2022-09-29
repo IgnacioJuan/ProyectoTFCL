@@ -2736,6 +2736,7 @@ int id browser_actions_menu_item_icon 0x7f080069
 int id browser_actions_menu_item_text 0x7f08006a
 int id browser_actions_menu_items 0x7f08006b
 int id browser_actions_menu_view 0x7f08006c
+int id btnBuscarPract 0x7f080225
 int id btnGoogle 0x7f08006d
 int id btnLogin 0x7f08006e
 int id btnRegistro 0x7f08006f
@@ -3143,9 +3144,14 @@ int id transition_position 0x7f080200
 int id transition_scene_layoutid_cache 0x7f080201
 int id transition_transform 0x7f080202
 int id triangle 0x7f080203
+int id txtBuscarPrac 0x7f080226
+int id txtCarrera 0x7f080227
+int id txtCedula 0x7f080228
+int id txtCorreo 0x7f080229
 int id txtEmail 0x7f080204
 int id txtEmailNav 0x7f080205
 int id txtEmailRecuperar 0x7f080206
+int id txtNombres 0x7f08022a
 int id txtPassword 0x7f080207
 int id txt_Apellidos_R 0x7f080208
 int id txt_Email_R 0x7f080209

@@ -136,14 +136,14 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }*/
 
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
-        String s="";
+        //String s="";
         AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
         firebaseAuth.signInWithCredential(credential)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            String[] split = s.split("@");
+                            /*String[] split = s.split("@");
                             String domain = split[1]; //This Will Give You The Domain After '@'
                             if(domain.equals("tecazuay.edu.ec"))
                             {
@@ -155,11 +155,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                             else
                             {
                                 Toast.makeText(LoginActivity.this, "Sorry auth failed.", Toast.LENGTH_SHORT).show();
-                            }
+                            }*/
                             // Sign in success, update UI with the signed-in user's information
-                           //FirebaseUser user = firebaseAuth.getCurrentUser();
-                            //Intent intent = new Intent(getApplicationContext(),MainActivity.class);
-                            //startActivity(intent);
+                            FirebaseUser user = firebaseAuth.getCurrentUser();
+                            Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                            startActivity(intent);
 
                         } else {
                             Toast.makeText(LoginActivity.this, "Sorry auth failed.", Toast.LENGTH_SHORT).show();
