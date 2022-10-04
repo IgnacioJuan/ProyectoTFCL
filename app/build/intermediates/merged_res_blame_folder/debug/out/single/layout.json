@@ -52,10 +52,6 @@
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-main-53:\\layout\\activity_recuperar.xml"
     },
     {
-        "merged": "com.cristopher.guaman.proyectotfc.app-mergeDebugResources-50:/layout/fragment_estudiantes.xml",
-        "source": "com.cristopher.guaman.proyectotfc.app-main-53:/layout/fragment_estudiantes.xml"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-mergeDebugResources-50:\\layout\\nav_header_menu_estudiantes.xml",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-main-53:\\layout\\nav_header_menu_estudiantes.xml"
     },
@@ -70,5 +66,13 @@
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-mergeDebugResources-50:\\layout\\content_menu_estudiantes.xml",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-main-53:\\layout\\content_menu_estudiantes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-mergeDebugResources-50:\\layout\\list_element.xml",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.3.3\\com.cristopher.guaman.proyectotfc.app-main-53:\\layout\\list_element.xml"
+    },
+    {
+        "merged": "com.cristopher.guaman.proyectotfc.app-mergeDebugResources-50:/layout/list_element.xml",
+        "source": "com.cristopher.guaman.proyectotfc.app-main-53:/layout/list_element.xml"
     }
 ]

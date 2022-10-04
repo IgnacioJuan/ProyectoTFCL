@@ -40,9 +40,14 @@ id btnRegistro
 id btn_CrearCuenta_R
 id btn_Recuperar
 id btn_olvPass
+id carreraTextView
+id cedulaTextView
 id cerrarSesion
+id correoTextView
+id cv
 id drawer_layout
 id fab
+id iconImageView
 id imageView
 id imageView2
 id imageView3
@@ -50,6 +55,8 @@ id imageView4
 id imageView5
 id imageView6
 id imageView7
+id linearLayout
+id listEstudiantes
 id mobile_navigation
 id mobile_navigation2
 id nav_gallery
@@ -58,6 +65,7 @@ id nav_host_fragment_content_main
 id nav_host_fragment_content_menu_estudiantes
 id nav_slideshow
 id nav_view
+id nombresTextView
 id textView
 id textView2
 id textView3
@@ -67,13 +75,9 @@ id text_home
 id text_slideshow
 id toolbar
 id txtBuscarPrac
-id txtCarrera
-id txtCedula
-id txtCorreo
 id txtEmail
 id txtEmailNav
 id txtEmailRecuperar
-id txtNombres
 id txtPassword
 id txt_Apellidos_R
 id txt_Email_R
@@ -95,6 +99,7 @@ layout fragment_gallery
 layout fragment_home
 layout fragment_notificaciones
 layout fragment_slideshow
+layout list_element
 layout nav_header_main
 layout nav_header_menu_estudiantes
 menu activity_main_drawer
@@ -152,3 +157,4 @@ style Theme.ProyectoTFC.NoActionBar.PopupOverlay
 style Theme.ProyectoTFC.PopupOverlay
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

@@ -1,40 +1,49 @@
 package com.cristopher.guaman.proyectotfc.models;
 
 public class Practicantes {
-    private String prac_cedula;
-    private String prac_nombres;
-    private String prac_descripcion;
-    private String prac_correo;
+    public String cedula;
+    public String nombre_completo;
+    public String car_descripcion;
+    public String per_correo;
 
-    public String getPrac_cedula() {
-        return prac_cedula;
+    public Practicantes(String cedula, String nombre_completo, String car_descripcion, String per_correo) {
+        this.cedula = cedula;
+        this.nombre_completo = nombre_completo;
+        this.car_descripcion = car_descripcion;
+        this.per_correo = per_correo;
     }
 
-    public void setPrac_cedula(String prac_cedula) {
-        this.prac_cedula = prac_cedula;
+    public String getCedula() {
+        return cedula;
     }
 
-    public String getPrac_nombres() {
-        return prac_nombres;
+    public void setCedula(String cedula) {
+        this.cedula = cedula;
     }
 
-    public void setPrac_nombres(String prac_nombres) {
-        this.prac_nombres = prac_nombres;
+    public String getNombre_completo() {
+        return nombre_completo;
     }
 
-    public String getPrac_descripcion() {
-        return prac_descripcion;
+    public void setNombre_completo(String nombre_completo) {
+        this.nombre_completo = nombre_completo;
     }
 
-    public void setPrac_descripcion(String prac_descripcion) {
-        this.prac_descripcion = prac_descripcion;
+    public String getCar_descripcion() {
+        return car_descripcion;
     }
 
-    public String getPrac_correo() {
-        return prac_correo;
+    public void setCar_descripcion(String car_descripcion) {
+        this.car_descripcion = car_descripcion;
     }
 
-    public void setPrac_correo(String prac_correo) {
-        this.prac_correo = prac_correo;
+    public String getPer_correo() {
+        return per_correo;
+    }
+
+    public void setPer_correo(String per_correo) {
+        this.per_correo = per_correo;
     }
 }
+
+

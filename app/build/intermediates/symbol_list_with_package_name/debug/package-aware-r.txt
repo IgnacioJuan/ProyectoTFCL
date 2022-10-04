@@ -2748,7 +2748,9 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id carreraTextView
 id carryVelocity
+id cedulaTextView
 id center
 id centerCrop
 id centerInside
@@ -2782,12 +2784,14 @@ id contentPanel
 id contiguous
 id continuousVelocity
 id coordinator
+id correoTextView
 id cos
 id counterclockwise
 id currentState
 id custom
 id customPanel
 id cut
+id cv
 id dark
 id date_picker_actions
 id decelerate
@@ -2871,6 +2875,7 @@ id homeAsUp
 id honorRequest
 id horizontal_only
 id icon
+id iconImageView
 id icon_group
 id icon_only
 id ifRoom
@@ -2902,6 +2907,8 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
+id listEstudiantes
 id listMode
 id list_item
 id locale
@@ -2985,6 +2992,7 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
+id nombresTextView
 id none
 id normal
 id north
@@ -3146,13 +3154,9 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id txtBuscarPrac
-id txtCarrera
-id txtCedula
-id txtCorreo
 id txtEmail
 id txtEmailNav
 id txtEmailRecuperar
-id txtNombres
 id txtPassword
 id txt_Apellidos_R
 id txt_Email_R
@@ -3310,6 +3314,7 @@ layout fragment_gallery
 layout fragment_home
 layout fragment_notificaciones
 layout fragment_slideshow
+layout list_element
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4811,6 +4816,7 @@ styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
 xml image_share_filepaths
+xml network_security_config
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

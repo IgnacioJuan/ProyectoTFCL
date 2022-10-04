@@ -74,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="15dp" />
 
-        <TextView
+        <!--<TextView
             android:id="@+id/txtCedula"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -108,7 +108,17 @@
             android:id="@+id/txtCorreo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Correo" />
+            android:text="Correo" />-->
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listEstudiantes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
 
     </LinearLayout>
 

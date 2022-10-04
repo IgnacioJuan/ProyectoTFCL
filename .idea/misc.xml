@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/DAVID/AndroidStudioProjects/ProyectoTFCL/app/src/main/res/menu/main.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/Desktop/Movil/ProyectoTFCL/app/src/main/res/drawable/ic_baseline_people_alt_24.xml" value="0.159" />
         <entry key="..\:/Users/Usuario/Desktop/Movil/ProyectoTFCL/app/src/main/res/drawable/ic_baseline_remove_red_eye_enable.xml" value="0.1395" />
         <entry key="..\:/Users/Usuario/Desktop/Movil/ProyectoTFCL/app/src/main/res/drawable/ic_baseline_visibility_24.xml" value="0.1465" />
         <entry key="..\:/Users/Usuario/Desktop/Movil/ProyectoTFCL/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.1465" />
@@ -22,7 +23,9 @@
         <entry key="..\:/Users/Usuario/Desktop/Movil/ProyectoTFCL/app/src/main/res/layout/fragment_gallery.xml" value="0.18072916666666666" />
         <entry key="..\:/Users/Usuario/Desktop/Movil/ProyectoTFCL/app/src/main/res/layout/fragment_home.xml" value="0.18072916666666666" />
         <entry key="..\:/Users/Usuario/Desktop/Movil/ProyectoTFCL/app/src/main/res/layout/fragment_notificaciones.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Usuario/Desktop/Movil/ProyectoTFCL/app/src/main/res/layout/list_element.xml" value="0.33" />
         <entry key="..\:/Users/Usuario/Desktop/Movil/ProyectoTFCL/app/src/main/res/layout/nav_header_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Usuario/Desktop/Movil/ProyectoTFCL/app/src/main/res/xml/network_security_config.xml" value="0.11927083333333334" />
       </map>
     </option>
   </component>

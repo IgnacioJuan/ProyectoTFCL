@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.cristopher.guaman.proyectotfc.R;
@@ -29,36 +30,24 @@ public final class FragmentEstudiantesBinding implements ViewBinding {
   public final ImageView imageView6;
 
   @NonNull
+  public final RecyclerView listEstudiantes;
+
+  @NonNull
   public final TextView textGallery;
 
   @NonNull
   public final EditText txtBuscarPrac;
 
-  @NonNull
-  public final TextView txtCarrera;
-
-  @NonNull
-  public final TextView txtCedula;
-
-  @NonNull
-  public final TextView txtCorreo;
-
-  @NonNull
-  public final TextView txtNombres;
-
   private FragmentEstudiantesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnBuscarPract, @NonNull ImageView imageView6, @NonNull TextView textGallery,
-      @NonNull EditText txtBuscarPrac, @NonNull TextView txtCarrera, @NonNull TextView txtCedula,
-      @NonNull TextView txtCorreo, @NonNull TextView txtNombres) {
+      @NonNull Button btnBuscarPract, @NonNull ImageView imageView6,
+      @NonNull RecyclerView listEstudiantes, @NonNull TextView textGallery,
+      @NonNull EditText txtBuscarPrac) {
     this.rootView = rootView;
     this.btnBuscarPract = btnBuscarPract;
     this.imageView6 = imageView6;
+    this.listEstudiantes = listEstudiantes;
     this.textGallery = textGallery;
     this.txtBuscarPrac = txtBuscarPrac;
-    this.txtCarrera = txtCarrera;
-    this.txtCedula = txtCedula;
-    this.txtCorreo = txtCorreo;
-    this.txtNombres = txtNombres;
   }
 
   @Override
@@ -100,6 +89,12 @@ public final class FragmentEstudiantesBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.listEstudiantes;
+      RecyclerView listEstudiantes = ViewBindings.findChildViewById(rootView, id);
+      if (listEstudiantes == null) {
+        break missingId;
+      }
+
       id = R.id.text_gallery;
       TextView textGallery = ViewBindings.findChildViewById(rootView, id);
       if (textGallery == null) {
@@ -112,32 +107,8 @@ public final class FragmentEstudiantesBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.txtCarrera;
-      TextView txtCarrera = ViewBindings.findChildViewById(rootView, id);
-      if (txtCarrera == null) {
-        break missingId;
-      }
-
-      id = R.id.txtCedula;
-      TextView txtCedula = ViewBindings.findChildViewById(rootView, id);
-      if (txtCedula == null) {
-        break missingId;
-      }
-
-      id = R.id.txtCorreo;
-      TextView txtCorreo = ViewBindings.findChildViewById(rootView, id);
-      if (txtCorreo == null) {
-        break missingId;
-      }
-
-      id = R.id.txtNombres;
-      TextView txtNombres = ViewBindings.findChildViewById(rootView, id);
-      if (txtNombres == null) {
-        break missingId;
-      }
-
       return new FragmentEstudiantesBinding((ConstraintLayout) rootView, btnBuscarPract, imageView6,
-          textGallery, txtBuscarPrac, txtCarrera, txtCedula, txtCorreo, txtNombres);
+          listEstudiantes, textGallery, txtBuscarPrac);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
