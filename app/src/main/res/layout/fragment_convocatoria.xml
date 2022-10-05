@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#CCCCCC"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:src="@drawable/menu" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/arbutus_slab"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="22sp"
+                tools:text="Convocatoria" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileIv"
+                android:layout_width="45dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="67dp"
+                android:src="@drawable/notificacion"
+                app:civ_border_overlay="true"
+                app:civ_border_width="1dp" />
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dots" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="358dp"
+            android:layout_height="550dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="#CCCCCC"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/gelasio_bold"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="30sp"
+                tools:text="EMPRESA" />
+
+            <TextView
+                android:layout_width="321dp"
+                android:layout_height="340dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/arbutus_slab"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="22sp"
+                tools:text="Usted a sido convocado para hacer sus practicas preprofesionales en la Empresa Developer" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="30dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Btn_Guardar"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:backgroundTint="#0B1A78"
+                    android:fontFamily="@font/biorhyme_bold"
+                    android:text="Rechazar"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <Button
+                    android:id="@+id/Btn_Listar"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:backgroundTint="#0B1A78"
+                    android:fontFamily="@font/biorhyme_bold"
+                    android:text="Aceptar" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

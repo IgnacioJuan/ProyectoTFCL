@@ -4,7 +4,7 @@
             "outputFile": "com.cristopher.guaman.proyectotfc.app-mergeDebugResources-49:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-3\\eadf7027bc6cb580b035c79a4f821412\\transformed\\appcompat-1.5.1\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\UsuarioF\\.gradle\\caches\\transforms-3\\eadf7027bc6cb580b035c79a4f821412\\transformed\\appcompat-1.5.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/iconitsa" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#d7d7d7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageview1"
+                    android:layout_width="43dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="9dp"
+                    android:src="@drawable/ic_baseline_speaker_notes_24" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textiew2"
+                        android:layout_width="271dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="CONVOCATORIA-001"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textiew3"
+                        android:layout_width="271dp"
+                        android:layout_height="53dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="Usted ha sido seleccionado para realizar las practicas pre profesionales en la empresa elegida"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#d7d7d7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageview4"
+                    android:layout_width="43dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="9dp"
+                    android:src="@drawable/ic_baseline_speaker_notes_24" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textiew5"
+                        android:layout_width="271dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="CONVOCATORIA-002"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textiew6"
+                        android:layout_width="271dp"
+                        android:layout_height="53dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="Practicas en la empresa ElectroAzuay para la Carrera Tecnología Superior en Electricidad. "
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#d7d7d7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageview7"
+                    android:layout_width="43dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="9dp"
+                    android:src="@drawable/ic_baseline_speaker_notes_24" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textiew8"
+                        android:layout_width="271dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="CONVOCATORIA-003"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textiew9"
+                        android:layout_width="271dp"
+                        android:layout_height="53dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="Practicas en CENTROSUR para la Carrera Tecnología Superior en Electricidad para mantenimiento de instalaciones."
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#d7d7d7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageview10"
+                    android:layout_width="43dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="9dp"
+                    android:src="@drawable/ic_baseline_speaker_notes_24" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textiew11"
+                        android:layout_width="271dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="CONVOCATORIA-004"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textiew12"
+                        android:layout_width="316dp"
+                        android:layout_height="53dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="Practicas en la empresa Developer para la Carrera Tecnología Superior en Desarrollo de Software para desarollo de BACKEND en SpringBoot. "
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#d7d7d7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageview13"
+                    android:layout_width="43dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="9dp"
+                    android:src="@drawable/ic_baseline_speaker_notes_24" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textiew14"
+                        android:layout_width="271dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="CONVOCATORIA-005"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textiew15"
+                        android:layout_width="316dp"
+                        android:layout_height="53dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="Practicas en la empresa ANG para la Carrera Tecnología Superior en Desarrollo de Software para desarollo de FRONTEND en Angular. "
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#d7d7d7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageview16"
+                    android:layout_width="43dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="9dp"
+                    android:src="@drawable/ic_baseline_speaker_notes_24" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textiew17"
+                        android:layout_width="271dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="CONVOCATORIA-006"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textiew18"
+                        android:layout_width="271dp"
+                        android:layout_height="53dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="Practicas en el cuerpo de Bomberos para la Tecnología Superior en Control de Incendios para auxiliares. "
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
