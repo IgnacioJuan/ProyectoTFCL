@@ -21,16 +21,60 @@ public final class FragmentNotificacionesBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView imageVie8;
+
+  @NonNull
   public final ImageView imageView3;
+
+  @NonNull
+  public final ImageView imageView8;
+
+  @NonNull
+  public final ImageView imageview13;
+
+  @NonNull
+  public final ImageView imageview8;
+
+  @NonNull
+  public final ImageView imageview811;
 
   @NonNull
   public final TextView textHome;
 
+  @NonNull
+  public final TextView textVi5;
+
+  @NonNull
+  public final TextView textView5;
+
+  @NonNull
+  public final TextView textiew5;
+
+  @NonNull
+  public final TextView textview50;
+
+  @NonNull
+  public final TextView textview51;
+
   private FragmentNotificacionesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView3, @NonNull TextView textHome) {
+      @NonNull ImageView imageVie8, @NonNull ImageView imageView3, @NonNull ImageView imageView8,
+      @NonNull ImageView imageview13, @NonNull ImageView imageview8,
+      @NonNull ImageView imageview811, @NonNull TextView textHome, @NonNull TextView textVi5,
+      @NonNull TextView textView5, @NonNull TextView textiew5, @NonNull TextView textview50,
+      @NonNull TextView textview51) {
     this.rootView = rootView;
+    this.imageVie8 = imageVie8;
     this.imageView3 = imageView3;
+    this.imageView8 = imageView8;
+    this.imageview13 = imageview13;
+    this.imageview8 = imageview8;
+    this.imageview811 = imageview811;
     this.textHome = textHome;
+    this.textVi5 = textVi5;
+    this.textView5 = textView5;
+    this.textiew5 = textiew5;
+    this.textview50 = textview50;
+    this.textview51 = textview51;
   }
 
   @Override
@@ -60,9 +104,39 @@ public final class FragmentNotificacionesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.imageVie8;
+      ImageView imageVie8 = ViewBindings.findChildViewById(rootView, id);
+      if (imageVie8 == null) {
+        break missingId;
+      }
+
       id = R.id.imageView3;
       ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
       if (imageView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView8;
+      ImageView imageView8 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView8 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageview13;
+      ImageView imageview13 = ViewBindings.findChildViewById(rootView, id);
+      if (imageview13 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageview8;
+      ImageView imageview8 = ViewBindings.findChildViewById(rootView, id);
+      if (imageview8 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageview811;
+      ImageView imageview811 = ViewBindings.findChildViewById(rootView, id);
+      if (imageview811 == null) {
         break missingId;
       }
 
@@ -72,7 +146,39 @@ public final class FragmentNotificacionesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentNotificacionesBinding((ConstraintLayout) rootView, imageView3, textHome);
+      id = R.id.textVi5;
+      TextView textVi5 = ViewBindings.findChildViewById(rootView, id);
+      if (textVi5 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView5;
+      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
+      if (textView5 == null) {
+        break missingId;
+      }
+
+      id = R.id.textiew5;
+      TextView textiew5 = ViewBindings.findChildViewById(rootView, id);
+      if (textiew5 == null) {
+        break missingId;
+      }
+
+      id = R.id.textview50;
+      TextView textview50 = ViewBindings.findChildViewById(rootView, id);
+      if (textview50 == null) {
+        break missingId;
+      }
+
+      id = R.id.textview51;
+      TextView textview51 = ViewBindings.findChildViewById(rootView, id);
+      if (textview51 == null) {
+        break missingId;
+      }
+
+      return new FragmentNotificacionesBinding((ConstraintLayout) rootView, imageVie8, imageView3,
+          imageView8, imageview13, imageview8, imageview811, textHome, textVi5, textView5, textiew5,
+          textview50, textview51);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

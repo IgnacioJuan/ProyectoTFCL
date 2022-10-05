@@ -24,13 +24,39 @@ public final class FragmentDocumentosBinding implements ViewBinding {
   public final ImageView imageView4;
 
   @NonNull
+  public final ImageView imageview13;
+
+  @NonNull
+  public final ImageView imageview8;
+
+  @NonNull
+  public final ImageView imageview811;
+
+  @NonNull
   public final TextView textSlideshow;
 
+  @NonNull
+  public final TextView textiew5;
+
+  @NonNull
+  public final TextView textview50;
+
+  @NonNull
+  public final TextView textview51;
+
   private FragmentDocumentosBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView4, @NonNull TextView textSlideshow) {
+      @NonNull ImageView imageView4, @NonNull ImageView imageview13, @NonNull ImageView imageview8,
+      @NonNull ImageView imageview811, @NonNull TextView textSlideshow, @NonNull TextView textiew5,
+      @NonNull TextView textview50, @NonNull TextView textview51) {
     this.rootView = rootView;
     this.imageView4 = imageView4;
+    this.imageview13 = imageview13;
+    this.imageview8 = imageview8;
+    this.imageview811 = imageview811;
     this.textSlideshow = textSlideshow;
+    this.textiew5 = textiew5;
+    this.textview50 = textview50;
+    this.textview51 = textview51;
   }
 
   @Override
@@ -66,13 +92,50 @@ public final class FragmentDocumentosBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageview13;
+      ImageView imageview13 = ViewBindings.findChildViewById(rootView, id);
+      if (imageview13 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageview8;
+      ImageView imageview8 = ViewBindings.findChildViewById(rootView, id);
+      if (imageview8 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageview811;
+      ImageView imageview811 = ViewBindings.findChildViewById(rootView, id);
+      if (imageview811 == null) {
+        break missingId;
+      }
+
       id = R.id.text_slideshow;
       TextView textSlideshow = ViewBindings.findChildViewById(rootView, id);
       if (textSlideshow == null) {
         break missingId;
       }
 
-      return new FragmentDocumentosBinding((ConstraintLayout) rootView, imageView4, textSlideshow);
+      id = R.id.textiew5;
+      TextView textiew5 = ViewBindings.findChildViewById(rootView, id);
+      if (textiew5 == null) {
+        break missingId;
+      }
+
+      id = R.id.textview50;
+      TextView textview50 = ViewBindings.findChildViewById(rootView, id);
+      if (textview50 == null) {
+        break missingId;
+      }
+
+      id = R.id.textview51;
+      TextView textview51 = ViewBindings.findChildViewById(rootView, id);
+      if (textview51 == null) {
+        break missingId;
+      }
+
+      return new FragmentDocumentosBinding((ConstraintLayout) rootView, imageView4, imageview13,
+          imageview8, imageview811, textSlideshow, textiew5, textview50, textview51);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginStart="5dp"
     tools:context=".ui.notificaciones.NotFragment">
 
     <LinearLayout
@@ -16,8 +17,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/imageView3"
@@ -38,6 +41,137 @@
             android:layout_marginEnd="8dp"
             android:textAlignment="center"
             android:textSize="20sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="19dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#d7d7d7">
+
+            <ImageView
+                android:id="@+id/imageview8"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="9dp"
+                android:src="@drawable/ic_baseline_speaker_notes_24" />
+
+            <TextView
+                android:id="@+id/textiew5"
+                android:layout_width="271dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="75dp"
+                android:layout_marginLeft="2dp"
+                android:text="Usted ha sido asignado como representante de practicas preprofesionales de la carrera de Desarrollo de Software"
+                android:textColor="@color/black" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#d7d7d7">
+
+            <ImageView
+                android:id="@+id/imageview13"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="9dp"
+                android:src="@drawable/ic_baseline_speaker_notes_24" />
+
+            <TextView
+                android:id="@+id/textview50"
+                android:layout_width="271dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="75dp"
+                android:layout_marginLeft="2dp"
+                android:text="Se le han asignado 15 estudiantes para que represente en las practicas preprofesionales"
+                android:textColor="@color/black" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#d7d7d7">
+
+            <ImageView
+                android:id="@+id/imageview811"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="9dp"
+                android:src="@drawable/ic_baseline_speaker_notes_24" />
+
+            <TextView
+                android:id="@+id/textview51"
+                android:layout_width="271dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="75dp"
+                android:layout_marginLeft="2dp"
+                android:text="Las practicas preprofesionales empiezan el lunes 10 de marzo del 2022"
+                android:textColor="@color/black" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#d7d7d7">
+
+            <ImageView
+                android:id="@+id/imageVie8"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="9dp"
+                android:src="@drawable/ic_baseline_speaker_notes_24" />
+
+            <TextView
+                android:id="@+id/textVi5"
+                android:layout_width="271dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="75dp"
+                android:layout_marginLeft="2dp"
+                android:text="Tiene que acercarse a la empresa Coral Centro Hipermercados para firmar los anexos de los estudiantes"
+                android:textColor="@color/black" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#d7d7d7">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="9dp"
+                android:src="@drawable/ic_baseline_speaker_notes_24" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="271dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="75dp"
+                android:layout_marginLeft="2dp"
+                android:text="Usted ha sido asignado para reprentar en la practicas preprofesionales"
+                android:textColor="@color/black" />
+        </FrameLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
